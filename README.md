@@ -1,6 +1,6 @@
 # Self-Permutation Noise2Noise Denoiser (SPEND)
 
-This repository contains the implementation of the Self-Permutation Noise2Noise Denoiser (SPEND) framework designed to remove spatially correlated and spectrally varied noise from hyperspectral Stimulated Raman Scattering (SRS) images. The method utilizes a novel axis-based permutation strategy to improve denoising performance by disrupting noise correlations across different dimensions of the data.
+This repository contains the implementation of the Self-Permutation Noise2Noise Denoiser (SPEND) framework designed to remove spatially correlated and spectrally varied noise from hyperspectral images. The method utilizes a novel axis-based permutation strategy to improve denoising performance by disrupting noise correlations across different data dimensions.
 
 ## Overview
 
