@@ -2,6 +2,16 @@
 
 This repository contains the implementation of the Self-Permutation Noise2Noise Denoiser (SPEND) framework designed to remove spatially correlated and spectrally varied noise from hyperspectral images. The method utilizes a novel axis-based permutation strategy to improve denoising performance by disrupting noise correlations across different data dimensions.
 
+# Prerequesite
+The code relies on the CSBDeep Python package (https://github.com/CSBDeep/CSBDeep) for U-net denoiser implementation. A copy of the csbdeep package is included in the folder.
+
+Software dependencies and tested versions: Python 3 (3.9.12), Tensorflow 2 (2.11.0) with GPU support (CUDA (9.1) and cuDNN (8.8.0))
+
+CSBDeep copyright:
+BSD 3-Clause License
+Copyright (c) 2018, Uwe Schmidt, Martin Weigert
+All rights reserved.
+
 ## Overview
 
 Hyperspectral SRS data often suffers from correlated noise in both spatial and spectral domains, making traditional denoising methods less effective. The SPEND framework introduces a self-permutation-based Noise2Noise (N2N) denoising method. By selecting a permutation axis based on the noise correlation levels along different axes, this approach maximizes the independence of input-target image pairs, improving the performance of Noise2Noise learning.
