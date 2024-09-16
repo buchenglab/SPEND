@@ -41,8 +41,10 @@ The SPEND framework consists of the following main steps:
     cd SPEND
     ```
 2. Install dependencies:
+    ```bash
     conda env create -f environment.yaml
     conda activate SPEND
+    ```
 
 ## Usage
 
