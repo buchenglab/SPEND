@@ -37,13 +37,12 @@ The SPEND framework consists of the following main steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-repo/SPEND.git
+    git clone https://github.com/buchenglab/SPEND/
     cd SPEND
     ```
 2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+    conda env create -f environment.yaml
+    conda activate SPEND
 
 ## Usage
 
