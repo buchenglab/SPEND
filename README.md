@@ -16,6 +16,9 @@ All rights reserved.
 
 Hyperspectral SRS data often suffers from correlated noise in both spatial and spectral domains, making traditional denoising methods less effective. The SPEND framework introduces a self-permutation-based Noise2Noise (N2N) denoising method. By selecting a permutation axis based on the noise correlation levels along different axes, this approach maximizes the independence of input-target image pairs, improving the performance of Noise2Noise learning.
 
+![Video_labeled](https://github.com/user-attachments/assets/ba8d133a-a794-4153-9914-1c7e256df11c)
+
+
 ### Key Features
 - **Permutation Axis Selection**: The axis with the least noise correlation (often the spectral ω axis) is chosen for permutation. This ensures that the noise is effectively decorrelated, improving denoising performance.
 - **Data Permutation**: Raw hyperspectral data is split into odd and even slices along the selected axis, and these slices are alternately concatenated to form the input and target pairs for Noise2Noise training.
