@@ -13,7 +13,7 @@ Hyperspectral SRS data often suffers from correlated noise in both spatial and s
 - **Data Permutation**: Raw hyperspectral data is split into odd and even slices along the selected axis, and these slices are alternately concatenated to form the input and target pairs for Noise2Noise training.
 - **U-Net Architecture**: A U-Net-based convolutional neural network is employed to perform the denoising task, ensuring that both spatial and spectral features are preserved during the denoising process.
 - 
-# Prerequesite
+## Prerequesite
 The code relies on the CSBDeep Python package (https://github.com/CSBDeep/CSBDeep) for U-net denoiser implementation. A copy of the csbdeep package is included in the folder.
 
 Software dependencies and tested versions: Python 3 (3.9.16), Tensorflow 2 (2.12.0) with GPU support (CUDA (9.1) and cuDNN (8.8.0))
