@@ -54,5 +54,5 @@ The SPEND framework consists of the following main steps:
 
 ## Citation
 
-If you use this code in your work, please consider citing our paper:
+If you are interested in more details, please refer to our paper: http://arxiv.org/abs/2409.09910
 
