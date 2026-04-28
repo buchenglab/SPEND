@@ -52,14 +52,16 @@ The SPEND framework consists of the following main steps:
 3. **2_training_SPEND.py** trains the SPEND model.
 4. **3_prediction_SPEND.py** applies the trained model to perform denoising on your dataset.
 
-## Citation
-
-If you are interested in more details, please refer to our paper: https://www.cell.com/newton/fulltext/S2950-6360(25)00187-2
-
 ## Examples
 
 Download example hyperspectral datasets:  
 https://drive.google.com/drive/folders/14jKBn3XVm92hNvDPy5uTW8FtSFxklNE4?usp=sharing  
 
 Additional datasets are available upon request (grding@bu.edu).
+
+## Citation
+
+If you are interested in more details, please refer to our paper: https://www.cell.com/newton/fulltext/S2950-6360(25)00187-2
+
+
 
