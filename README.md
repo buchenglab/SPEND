@@ -54,5 +54,12 @@ The SPEND framework consists of the following main steps:
 
 ## Citation
 
-If you are interested in more details, please refer to our paper: http://arxiv.org/abs/2409.09910
+If you are interested in more details, please refer to our paper: https://www.cell.com/newton/fulltext/S2950-6360(25)00187-2
+
+## Examples
+
+Download example hyperspectral datasets:  
+https://drive.google.com/drive/folders/14jKBn3XVm92hNvDPy5uTW8FtSFxklNE4?usp=sharing  
+
+Additional datasets are available upon request (grding@bu.edu).
 
